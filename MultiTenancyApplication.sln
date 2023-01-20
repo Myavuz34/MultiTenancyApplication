@@ -1,8 +1,28 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiTenant.Api", "MultiTenant.Api\MultiTenant.Api.csproj", "{41B4CBCD-42B1-4A2A-B3D8-D324360C7A66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiTenant.Core", "MultiTenant.Core\MultiTenant.Core.csproj", "{0FB5A0DE-54DC-496A-A337-0FE5DE9A5925}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiTenant.Infrastructure", "MultiTenant.Infrastructure\MultiTenant.Infrastructure.csproj", "{74D8718C-A47D-4F97-BF70-CBCFBF709BF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41B4CBCD-42B1-4A2A-B3D8-D324360C7A66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41B4CBCD-42B1-4A2A-B3D8-D324360C7A66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41B4CBCD-42B1-4A2A-B3D8-D324360C7A66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41B4CBCD-42B1-4A2A-B3D8-D324360C7A66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FB5A0DE-54DC-496A-A337-0FE5DE9A5925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FB5A0DE-54DC-496A-A337-0FE5DE9A5925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FB5A0DE-54DC-496A-A337-0FE5DE9A5925}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FB5A0DE-54DC-496A-A337-0FE5DE9A5925}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74D8718C-A47D-4F97-BF70-CBCFBF709BF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74D8718C-A47D-4F97-BF70-CBCFBF709BF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74D8718C-A47D-4F97-BF70-CBCFBF709BF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74D8718C-A47D-4F97-BF70-CBCFBF709BF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
